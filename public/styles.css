@@ -1,5 +1,5 @@
-/*Taas iso kommentti*/
-/* Chatbox */
+/***** Chatbox *****/
+
  * { 
       box-sizing: border-box;
       transition: all .3s ease;
@@ -7,19 +7,19 @@
 body { 
       font: 13px Helvetica, Arial;
 }
-/*Mikä tää on*/
+
 form input { 
       border: 0; 
       padding: 10px;
       margin-top: 10px;
 }
-/*Ja tää*/
+
 #chatbox{
       width: 50%;
       margin: auto;
 }
 
-/* Input field and buttons */
+/**** Input field and buttons *****/
 
 .input {
       width: 90%;
@@ -39,7 +39,7 @@ form input {
       color: #fff;    
 }
 
-/* Messages */
+/***** Messages *****/
 
 #msgs { 
       list-style-type: none; 
@@ -53,7 +53,8 @@ form input {
       background: #FC9D9A; 
 }
 
-/* Userlist */
+/***** Userlist *********/
+
 #people { 
       list-style-type: none;
       padding: 5px;
