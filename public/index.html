@@ -1,0 +1,43 @@
+<!-- Socket.io Chat -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+  </head>
+
+  <body>
+    <div id="chatbox">
+      <div class="row">
+        <div class="span2">
+          <!--List of users on server-->
+          <ul id="people" class="messages"></ul>
+        </div>
+        <div class="span4">
+          <ul id="msgs" class="messages"></ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span5 offset2" id="login"> 
+          <form class="form-inline">
+            <!--Adding username-->
+            <input type="text" class="input-small" placeholder="Your name" id="name">
+            <input type="button" name="join" id="join" value="Join" class="btn btn-primary">
+          </form>
+        </div>
+
+        <div class="span5 offset2" id="chat">
+          <form id="2" class="form-inline">
+            <!--Sending a message-->
+            <input type="text" class="input" placeholder="Your message" autocomplete="off" id="msg"> 
+            <input type="button" name="send" id="send" value="Send" class="btn btn-success">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

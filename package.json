@@ -1,0 +1,18 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat application",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Miia Harja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2"
+  }
+}

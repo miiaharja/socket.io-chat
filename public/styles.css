@@ -1,0 +1,69 @@
+/*Taas iso kommentti*/
+/* Chatbox */
+ * { 
+      box-sizing: border-box;
+      transition: all .3s ease;
+}
+body { 
+      font: 13px Helvetica, Arial;
+}
+/*Mikä tää on*/
+form input { 
+      border: 0; 
+      padding: 10px;
+      margin-top: 10px;
+}
+/*Ja tää*/
+#chatbox{
+      width: 50%;
+      margin: auto;
+}
+
+/* Input field and buttons */
+
+.input {
+      width: 90%;
+      background-color: #83AF9B;
+      color:#fff;
+}
+
+.input::placeholder{
+      color:#fff;
+}
+
+#send {
+      width: 9%;
+      margin-left:5px;
+      float: right;
+      background-color: #FE4365;
+      color: #fff;    
+}
+
+/* Messages */
+
+#msgs { 
+      list-style-type: none; 
+      margin: 0; 
+      padding: 0; 
+}
+#msgs li { 
+      padding: 5px 10px; 
+}
+#msgs li:nth-child(odd) { 
+      background: #FC9D9A; 
+}
+
+/* Userlist */
+#people { 
+      list-style-type: none;
+      padding: 5px;
+      background-color: #83AF9B;
+      color:#fff;
+}
+#people li { 
+      padding: 5px 10px; 
+}
+
+ul li {
+      display: block;
+}
